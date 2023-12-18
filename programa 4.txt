@@ -1,0 +1,13 @@
+public class RaizCuadradaDe64 {
+    public static void main(String[] args) {
+        double numero = 64.0;
+        double resultado = Math.sqrt(numero);
+        double pi = Math.PI;
+        System.out.println("La raíz cuadrada de " + numero + " es: " + resultado);
+        System.out.println("El cuadrado de " + resultado + "es:" + resultado * resultado);
+        System.out.println(pi);
+        
+        
+        
+    }
+}

@@ -1,0 +1,12 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    System.out.print("ingrese un numero");
+    int numero1 = entrada.nextInt();
+    System.out.print("ingrese un numero");
+    int numero2 = entrada.nextInt();
+    System.out.print("la suma es: " + (numero1 + numero2));
+      
+    }
+}

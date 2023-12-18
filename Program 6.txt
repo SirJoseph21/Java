@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    System.out.print("Ingresa la tabla de multiplicar deseada: ");
+    int tabla = entrada.nextInt();
+
+    System.out.println("Tabla de multiplicar del " + tabla + ":");
+    for (int i = 1; i <= 10; i++) {
+    int producto = tabla * i;
+    System.out.println(tabla + " x " + i + " = " + producto);
+    }
+    entrada.close();
+   
+  }
+}

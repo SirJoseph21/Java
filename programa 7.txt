@@ -1,0 +1,22 @@
+import java.util.*;
+public class Numero_primo {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    System.out.println("ingresar un numero: ");
+    double n = entrada.nextDouble();
+    double divisor = 2;
+    double primo = 0;
+    for (int i=2; i<=n; i++ ){
+        double prueba = n % i;
+        if (prueba == 0) {
+            if (n == i) { 
+            System.out.println(" El numero " + n + " Es primo ");
+                }
+                else {
+                     System.out.println(" El numero " + n + " No es numero primo ");
+                     break;
+                }
+                }
+    }
+    }
+  }

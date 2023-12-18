@@ -1,0 +1,13 @@
+public class Portada {
+    public static void main(String[] args) {
+        System.out.println("*******************************************");
+        System.out.println("*        Logica de Programacion           *");
+        System.out.println("*                                         *");
+        System.out.println("*                                         *");
+        System.out.println("*   Nombre: José Rodolfo Garduño Guerrero *");
+        System.out.println("*               Grupo: 101                *");
+        System.out.println("*                Java                     *");
+        System.out.println("*                                         *");
+        System.out.println("*******************************************");
+    }
+}
